@@ -9,7 +9,7 @@ int main(){
     {
         ++start;
         srand(start);
-        printf("%lu;", start);
+        printf("%ld;", start);
         int r = rand();
         printf("%d;", r);
         for(int ii = 0; ii < 1000; ++ii)
